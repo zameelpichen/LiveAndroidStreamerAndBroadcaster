@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.zameelpichen.android.liveVideoBroadcaster.LiveVideoBroadcasterActivity;
 import com.zameelpichen.android.liveVideoPlayer.LiveVideoPlayerActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openVideoBroadcaster(View view) {
-        Intent i = new Intent(this, io.antmedia.android.liveVideoBroadcaster.LiveVideoBroadcasterActivity.class);
+        Intent i = new Intent(this, LiveVideoBroadcasterActivity.class);
         startActivity(i);
     }
 
